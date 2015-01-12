@@ -1,0 +1,72 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.trends {
+    height: 20.5em;
+    width: 20.5em;
+    float: left;
+    border: solid 10px #eee;
+    margin-left: 2.5em;
+}
+
+#loading {
+    height: 2.5em;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+    /*background: url('../images/ajax-loader.gif');*/
+    background-size: cover;
+}
+
+#hovertest:hover {
+    background-color: #eee;
+}
+
+ #owl-demo .item{
+      margin: 3px;
+    }
+#owl-demo .item img{
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin-left:100px;
+}
+#owl-example .item img{
+    display: block;
+    /*width: 100%;*/
+    height: auto;
+}
+
+body:after {
+    content: url(/app/images/logo15.png) url(/app/images/record-top.png) url(/app/images/wrench2.png) url(/app/images/chart.png) url(/app/images/partners/temporary.png);
+    display:none;
+}

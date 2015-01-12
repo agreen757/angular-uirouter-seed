@@ -1,0 +1,74 @@
+@media(width:320px){
+    #numbers{
+        padding-left:5em;
+    }
+    #moo{
+        display:none;
+    }
+    #headerpadtext{
+        font-size:1em;
+    }
+    #headerpad{
+        padding:1em;
+        font-size:1.5em;
+    }
+    #login{
+        display:none;
+    }
+    #signup{
+        margin-bottom:10em;
+    }
+}
+@media(max-width:360px){
+    #moo{
+        display:none;
+    }
+    #headerpad{
+        padding:2em;
+    }
+    #numbers{
+        padding-left:4em;
+    }
+    #login{
+        display:none;
+    }
+    #signup{
+        margin-bottom:10em;
+    }
+}
+@media (min-width:519px) and (max-width:569px){
+    #moo{
+        display:none;
+    }
+    #headerpad{
+        padding:3em;
+        width:26em;
+    }
+    #numbers{
+        padding-left:12em;
+    }
+    #contact{
+        padding-left:0px;
+    }
+    #login{
+        display:none;
+    }
+    #signup{
+        margin-bottom:10em;
+    }
+}
+@media(min-width:570px){
+    #headerpad{
+        padding:50px;
+        width:600px;
+    }
+    #headerpadtext{
+        font-size:2em;
+    }
+    #numbers{
+        padding-left:300px;
+    }
+    #contact{
+        padding-left:150px;
+    }
+}

@@ -1,0 +1,367 @@
+html, body, #woop{
+                        height:100%;
+                    }
+            #header {
+                background: url(../images/join/soulkhan.png) 50% 0 fixed; 
+                height: 100vh;  
+                margin: 0 auto; 
+                background-size:cover;
+                background-repeat:no-repeat;
+                width: 100%; 
+                position: relative;
+                /*z-index:1;*/
+                box-shadow: 0 0 50px rgba(0,0,0,0.8);
+                padding: 100px 0;
+            }
+            #opaqueheader {
+                height: 100vh
+            }
+            #mobilesign {
+                display:none;
+            }
+            #beforemeat {
+                background: url(../images/join/bviolin.jpg) 50% 0 fixed; 
+                height: 100vh;  
+                margin: 0 auto; 
+                background-size:cover;
+                width: 100%; 
+                position: relative;
+                /*z-index:1;*/
+                box-shadow: 0 0 50px rgba(0,0,0,0.8);
+                padding: 100px 0;
+                font-family: bebas,sans-serif;
+                font-weight:bold;
+                min-height:100%;
+                box-sizing:border-box;
+            }
+            #ending {
+                background: url(../images/join/foot2.png) 50% 0 fixed; 
+                background-repeat: no-repeat;
+                height: 100vh;  
+                margin: 0 auto; 
+                background-size:cover;
+                width: 100%; 
+                position: relative;
+                /*z-index:1;*/
+                box-shadow: 0 0 50px rgba(0,0,0,0.8);
+                padding: 100px 0;
+            }
+            
+            @font-face {
+                font-family: "bebas";
+                src: url('../fonts/BEBAS___.ttf.ttf')
+            }
+            
+              @media (max-width:1232px){
+                #headertext {
+                    font-size:1.2em;
+                }
+                #headercol1{
+                    right:2px;color:white;font-size:1.1em;position:absolute;z-index:2;top:50%
+                }
+                #bigtext {
+                    position:absolute;z-index:2;color:white;right:18em;top:3em;
+                }
+                #philosophy{
+                    position:absolute;z-index:2;margin-top:190px
+                }
+                #textfont{
+                    font-size:8em;
+                }
+              }
+              @media (min-width:1232px) and (max-width:1235px){
+                #headertext{
+                    font-size:1.5em;
+                }
+                #headercol1 {
+                    right:2px;color:white;font-size:1.2em;position:absolute;z-index:2;top:50%
+                }
+                #bigtext {
+                    position:absolute;z-index:2;color:white;right:25em;top:3em;
+                }
+                #philosophy{
+                    position:absolute;z-index:2;margin-top:60px
+                }
+                #textfont{
+                    font-size:8em;
+                }
+              }
+              @media (min-width:1236px){
+                #headertext{
+                    font-size:1.3em;
+                }
+                #headercol1 {
+                    right:2px;color:white;font-size:1.2em;position:absolute;z-index:2;top:48%;
+                }
+                #bigtext {
+                    position:absolute;z-index:2;color:white;right:25em;top:3em;
+                }
+                #philosophy{
+                    position:absolute;z-index:2;margin-top:60px
+                }
+                #textfont{
+                    font-size:10em;
+                }
+              }
+              @media (max-width:929px){
+                #textfont{
+                    font-size:8em;
+                }
+              }
+              
+              @media (max-height:724px){
+                .whep2{
+                    background:rgba(0,0,0,0.5);opacity:.50;position:absolute;z-index:1;height:60%;width:100%;top:9em;
+                }
+              }
+              @media (min-height:725px){
+                .whep2{
+                    background:rgba(0,0,0,0.5);opacity:.50;position:absolute;z-index:1;height:60%;width:100%;top:9em;   
+                }
+              }
+              @media (min-height:500px) and (max-height:700px){
+                #headercol1 {
+                    right:2px;color:white;font-size:1em;position:absolute;z-index:2;top:48%;
+                }
+                #textfont{
+                    font-size:8em;
+                    }
+              }
+              
+              /*Iphone5 */
+             /* @media (min-width:320px) and (min-height:568px){
+                #mobilesign {
+                    display: block;
+                }
+                #demovid {
+                    display:none;
+                }
+                #ending {
+                    display:none;
+                }
+                #beforemeat {
+                    display:none;
+                }
+                #opaque {
+                    display:none;
+                }
+                #opaqueheader {
+                    height:92%;
+                }
+                .navbar-toggle {
+                    display:none;
+                }
+                .footer {
+                    display:none;
+                }
+                #headertext {
+                    font-size: .7em;
+                }
+                #cta1{
+                    top:20px;
+                }
+                #headercol1 {
+                    display:none;
+                }
+                #mobilesign {
+                    right:100px;color:white;font-size:1.1em;position:absolute;z-index:2;top:65%
+                }
+              }*/
+              /*IPHONE6 PLUS */
+                /*@media (min-width:414px) and (min-height:736px) and (max-width:1024px){
+                    #mobilesign {
+                        display: block;
+                    }
+                   /* #demovid {
+                        display:none;
+                    }
+                    #ending {
+                        display:none;
+                    }
+                    #beforemeat {
+                        display:none;
+                    }
+                    #opaque {
+                        display:none;
+                    }
+                    #opaqueheader {
+                        height:93.9%;
+                    }
+                    .navbar-toggle {
+                        display:none;
+                    }
+                    .footer {
+                        display:none;
+                    }
+                    #headertext {
+                        font-size: .9em;
+                    }
+                    #cta1{
+                        top:170px;
+                    }
+                    #headercol1 {
+                        display:none;
+                    }
+                    #mobilesign {
+                        right:150px;color:white;font-size:1.1em;position:absolute;z-index:2;top:65%
+                    }
+                }*/
+              /*Iphone6 */
+                /*@media (min-width:375px) and (min-height:667px) and (max-width:1024px){
+                    #mobilesign {
+                        display: block;
+                    }
+                    #demovid {
+                        display:none;
+                    }
+                    #ending {
+                        display:none;
+                    }
+                    #beforemeat {
+                        display:none;
+                    }
+                    #opaque {
+                        display:none;
+                    }
+                    #opaqueheader {
+                        height:93.2%;
+                    }
+                    .navbar-toggle {
+                        display:none;
+                    }
+                    .footer {
+                        display:none;
+                    }
+                    #headertext {
+                        font-size: .9em;
+                    }
+                    #cta1{
+                        top:150px;
+                    }
+                    #headercol1 {
+                        display:none;
+                    }
+                    #mobilesign {
+                        right:130px;color:white;font-size:1.1em;position:absolute;z-index:2;top:65%
+                    }
+                }*/
+                /*Samsung Galaxy S4 */
+                @media (min-width:360px)and (max-width:1024px){
+                    #mobilesign {
+                        display: block;
+                    }
+                    #demovid {
+                        display:none;
+                    }
+                    #ending {
+                        display:none;
+                    }
+                    #beforemeat {
+                        display:none;
+                    }
+                    #opaque {
+                        display:none;
+                    }
+                    #opaqueheader {
+                        height:93.2%;
+                    }
+                    .navbar-toggle {
+                        display:none;
+                    }
+                    .footer {
+                        display:none;
+                    }
+                    #headertext {
+                        font-size: .7em;
+                    }
+                    #cta1{
+                        top:150px;
+                    }
+                    #headercol1 {
+                        display:none;
+                    }
+                    #mobilesign {
+                        right:120px;color:white;font-size:1.1em;position:absolute;z-index:2;top:65%
+                    }
+                }
+                /*Iphone5 */
+                @media (min-width:320px) and (max-width:330px){
+                    #mobilesign {
+                        display: block;
+                    }
+                    #demovid {
+                        display:none;
+                    }
+                    #ending {
+                        display:none;
+                    }
+                    #beforemeat {
+                        display:none;
+                    }
+                    #opaque {
+                        display:none;
+                    }
+                    #opaqueheader {
+                        height:90%;
+                    }
+                    .navbar-toggle {
+                        display:none;
+                    }
+                    .footer {
+                        display:none;
+                    }
+                    #headertext {
+                        font-size: .7em;
+                    }
+                    #cta1{
+                        top:98px;
+                    }
+                    #headercol1 {
+                        display:none;
+                    }
+                    #mobilesign {
+                        right:90px;color:white;font-size:1.1em;position:absolute;z-index:2;top:65%
+                    }
+                }
+                /*IPHONE5 LANDSCAPE*/
+                @media (min-width:560px) and (height:320px){
+                    #mobilesign {
+                        display: block;
+                    }
+                    #demovid {
+                        display:none;
+                    }
+                    #ending {
+                        display:none;
+                    }
+                    #beforemeat {
+                        display:none;
+                    }
+                    #opaque {
+                        display:none;
+                    }
+                    #opaqueheader {
+                        height:85%;
+                    }
+                    .navbar-toggle {
+                        display:none;
+                    }
+                    .footer {
+                        display:none;
+                    }
+                    #headertext {
+                        font-size: .7em;
+                    }
+                    #cta1{
+                        top:70px;
+                    }
+                    #headercol1 {
+                        display:none;
+                    }
+                    #mobilesign {
+                        right:220px;color:white;font-size:1em;position:absolute;z-index:2;top:65%
+                    }
+                    .whep {
+                        top:30%
+                    }
+                }

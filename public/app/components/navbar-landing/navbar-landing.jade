@@ -1,0 +1,31 @@
+.navbar.navbar-inverse.navbar-fixed-top(role="navigation",id="top-nav")
+        .container(style="font-family:Droid Sans,sans-serif")
+            .navbar-header
+                    button.navbar-toggle.collapsed(type="button",data-toggle="collapse",data-target=".navbar-collapse")
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                a.navbar-brand(href="#")
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav#back(style="display:none;")
+                    li
+                        a(href="/",target="_self") Back
+                ul.nav.navbar-nav#hidenav
+                    li  
+                        a(href="#Home") Home
+                    li#moo
+                        a(href="#Basics") Basics
+                    li  
+                        a(href="#Results") Results
+                    li  
+                        a(href="#Press") Press
+                    li
+                        a(href="#Contact") Contact
+                ul.nav.navbar-nav.navbar-right
+                    li#hidenav
+                        a(id="join",href="/join",target="_self") Join Our Network
+                    li 
+                        a(id="login",href="/signup",target="_self",style="display:none") Log in
+                        a(id="logout",href="/logout",target="_self",style="display:none") Log out
+script(src="/app/components/navbar.js")

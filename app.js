@@ -9,6 +9,9 @@ app.set('view engine', 'jade');
 app.use(express.static('public'));
 var server = require('http').createServer(app);
 
+//Isolating routes
+require("./routes/routes.js")(app);
+
 app.get('*', function(req,res){
     res.render('index')
 })

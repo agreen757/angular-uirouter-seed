@@ -1,0 +1,66 @@
+@media only screen and (min-width:320px){
+    
+    #mainnav{
+        padding-bottom:50px;
+    }
+    
+    .navbar-brand{
+        display:none;
+    }
+    #sendit {
+        display:none;
+    }
+    #dashname {display:none}
+    #dashheading{
+        padding-bottom: 50px;
+        background-color:#D64342;
+    }
+    #dashheading #emphasis {
+        color:white;
+    }
+    #dashchart{display: none}
+    #dashglance p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #dashglance #dmonth {
+        font-weight: 500
+    }
+    #dashglance hr{width:70%}
+    #dashglance #doc {
+        font-weight: 500;
+        color: green;
+    }
+    #dashglance #ddif {font-size:1.3em}
+    #wrapper {
+        margin-top: -50px;
+    }
+    
+}
+
+@media only screen and (min-width:994px){
+    .navbar-brand{
+        display:block;
+    }
+    #dashname {display:block}
+    #dashchart {
+        display: block;
+    }
+    #dashglance p{
+        font-size: 1.9em;
+        text-align: center;
+    }
+    #sendit {
+        display:block;
+    }
+    #dashheading{
+        padding-bottom: 0px;
+        background-color:#D64342;
+    }
+    #wrapper {
+        margin-top: -50px;
+    }
+    .sidebar-brand {
+        color:white;
+    }
+}

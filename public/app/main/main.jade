@@ -1,4 +1,186 @@
-.container
+div#mainnav(ng-include="'/app/components/navbar-landing/navbar-landing.html'")
+.container-fluid
+    .row#Home
+        img(style="min-width:100%;max-width:100%;height:auto",src="./app/images/logo15.png")
     .row
+        numbers
+.container
+    .row(style="padding:80px")
         center
-            h1 more info
+            h2(style="font-size:3em;font-family:Droid Sans,sans-serif;padding-top:10px") Make <em style="color:red;">money</em> with your music
+
+.container-fluid#moo(style="background-color:#eee;height:200px")
+    h3(style="padding-left:200px;font-family:Droid Sans,sans-serif;z-index:2;color:white;position:absolute;margin-top:100px;color:#d64342") Streaming has become a <em style="color:black">significant</em> source of income for artists of all sizes.
+    img(alt="Record top",src="./app/images/record-top.png",style="position:absolute;z-index:1;margin-left:-407px")
+.container-fluid#moo(style="margin-top:142px;background-color:#c70000")
+    .row#Basics
+        center
+            div(style="background-color:#eee;margin-right:auto;margin-left:auto;width:95%;border-radius:5px;margin-top:20px;margin-bottom:50px")
+                h2(style="font-family:Droid Sans,sans-serif;margin-top:50px;padding:50px") When fans listen to your songs and use your music in their own content, your revenue remains undiscovered on new platforms unless <em style="color:red">properly managed.</em>
+                .container
+                    .row
+                        .col-xs-6
+                            p(style="font-size:15px") INDMUSIC is a global rights administration network and YouTube Certified MCN with proprietary digital tools and services to increase revenue and audience development on emerging platforms including YouTube, SoundCloud and Dailymotion. INDMUSIC helps its partners monetize their content on multiple platforms without sacrificing creative control or rights to their content.
+                        .col-xs-6
+                            p(style="font-size:15px") If you are already creating great content or have never uploaded a video, by partnering with INDMUSIC, you gain access to all the tools necessary to dominate the YouTube platform. Here's how:
+                .container
+                    .row(style="margin-top:50px;padding-bottom:50px")
+                        .col-xs-4
+                            img(src="./app/images/wrench2.png")
+                            h3 Optimization
+                            p We use best practices in channel strategy and content delivery to grow and maintain your audience. Through proprietary Content ID query technology, we find more uses of your music in user generated content (UGC).
+
+                        .col-xs-4
+                            img(src="./app/images/chart.png")
+                            h3 Analysis
+                            p Advanced demographic and engagement reports are nothing new to us. Coupled with a thorough, constant analysis of feedback on key search terms, we can dramatically increase your visibility.
+                        .col-xs-4
+                            img(src="./app/images/rocket.png")
+                            h3 Monetization
+                            p With premium advertising and product placement within your content, we will maximize your revenue. We also administer Master and Publishing Rights to generate additional income from unlicensed third party uses.
+                        
+.container-fluid(style="background-color:#B2B2B2;height:200px")
+    .row#Results
+        center
+            div#headerpad
+                h3#headerpadtext(style="font-family:Droid Sans,sans-serif") The <em style=color:white>results speak for themselves</em>, though we're sure our partners would be happy to elaborate.
+.container-fluid(style="margin-top:50px")
+    .row#numbers
+        .col-md-5
+            h1(style="font-family:Droid Sans,sans-serif")
+                em(style="color:red")
+                    strong {{netsubs}}
+            h4 Network Subscribers
+        .col-md-5
+            h1(style="font-family:Droid Sans,sans-serif")
+                em(style="color:red")
+                    strong {{netviews}}
+            h4 Network Views
+    .row#numbers
+        .col-md-5
+            h1(style="font-family:Droid Sans,sans-serif")
+                em(style="color:red")
+                    strong {{monviews}}
+            h4 Monthly Views
+        .col-md-5
+            h1(style="font-family:Droid Sans,sans-serif")
+                em(style="color:red")
+                    strong {{chanparts}}
+            h4 Channel Partners
+    hr
+    .row(style="padding:50px")
+        div#owl-demo.owl-carousel.owl-theme
+            div.item
+                img(src="./app/images/partners/ihc.png",alt="I Heart Comics")
+            div.item
+                img(src="./app/images/partners/soul.png",alt="Soul Kahn")
+            div.item
+                img(src="./app/images/partners/major-lazer.png",alt="Major Lazer")
+            div.item
+                img(src="./app/images/partners/reach.png") 
+            div.item
+                img(src="./app/images/partners/okay.png")
+            div.item
+                img(src="./app/images/partners/temporary.png")
+            div.item
+                img(src="./app/images/partners/mad-decent.png")
+            div.item
+                img(src="./app/images/partners/wild-honey.png")
+            div.item
+                img(src="./app/images/partners/insomniac.png")
+            div.item
+                img(src="./app/images/partners/laidback.png")
+            div.item
+                img(src="./app/images/partners/youtube.png")
+.container-fluid(style="margin-top:50px;background-color:#eee")
+    .row#Press
+        center
+            div#headerpad
+                h3#headerpadtext(style="font-family:Droid Sans,sans-serif") There's been some press. <br> <em style="color:red">Quite</em> a bit of it, in fact.
+.container-fluid(style="margin-top:50px")
+    .row
+        div#owl-example.owl-carousel.owl-theme
+            div.item
+                center
+                    img(src="./app/images/billboard.png")
+                    div(style="width:50%")
+                        h2(style="font-family:Droid Sans,sans-serif") <em>How Four-Person INDmusic is Monetizing the 'Harlem Shake' Meme for Mad Decent</em>
+                        strong “[INDMUSIC] helps the label monetize its YouTube channels at a higher CPM (or cost per thousand viewer rate) than it could have on its own, and with faster response to viral trends.”
+            div.item
+                center
+                    img(src="./app/images/fader.png")
+                    div(style="width:50%")
+                        h2(style="font-family:Droid Sans,sans-serif") <em>FADER Explains: Harlem Shake</em>
+                        strong “INDMUSIC ...has used YouTube's Content ID system to tag over 4,000 YouTubes featuring "Harlem Shake,"”
+            div.item
+                center
+                    img(src="./app/images/pandodaily.png")
+                    div(style="width:50%")
+                        h2(style="font-family:Droid Sans,sans-serif") <em>'Harlem Shake': The Making and Monetizing of Baauer's Viral Hit</em>
+                        strong “...by following the same model... artists like Explosions in the Sky, INDMUSIC is pioneering a new revenue path for musicians: the user-generated royalty.”
+                        
+.container-fluid(style="margin-top:50px;background-color:#d64342")
+    .row#Contact
+        center
+            div#headerpad
+                h3#headertext(style="color:black;font-family:Droid Sans,sans-serif") Band? Label? Other? <br> <em style="color:white">Say hello.</em>
+.container-fluid(style="margin-top:50px")
+    .row#contact(style="font-family:Droid Sans,sans-serif")
+        .col-md-6
+            h2(style="color:green") {{contactsuc}}
+            .form-group
+                form(name="contactForm",id="contactform",style="width:20em")
+                    label Name
+                    label(style="color:red") {{contacterr}}
+                    input.form-control#inputName(type="text",ng-model="info.name")
+                    label Email Address
+                    input.form-control#inputEmail(type="email",ng-model="info.email")
+                    label Your YouTube channel URL (optional)
+                    input.form-control#inputLink(type="text",ng-model="info.ytlink")
+                    label Message
+                    textarea.form-control#inputMessage(ng-model="info.message")
+                    button.btn.btn-primary(type="submit",style="text-transform:uppercase;font-size:22px;margin-top:5px;border-radius:0px;background-color:#d64342;border:none",ng-click="contact(info)") Send it on
+        .col-md-6
+            h2(style="font-family:Droid Sans,sans-serif") Our Info:
+            p(style="margin-top:20px;font-family:Droid Sans,sans-serif") 128 Metropolitain Ave<br>Brooklyn, NY 11249
+            hr(style="margin-top:20px")
+            p(style="margin-top:20px;font-family:Droid Sans,sans-serif") INDMUSIC was founded in 2011 by Brandon Martinez,<br> Jon Baltz, Guy Oseary, and Allen DeBevoise and is headquartered in Brooklyn, NY.
+            a(href="http://twitter.com/indmusic")
+                img(height="50",width="50",src="./app/images/twitter-icon2.png")
+            a(href="http://facebook.com/indmusic")
+                img(height="50",width="50",src="./app/images/facebook-icon2.png")
+            a(href="http://youtube.com/indmusic")
+                img(height="50",width="50",src="./app/images/youtube-icon2.png")
+            a(href="http://instagram.com/indmusic")
+                img(height="50",width="50",src="./app/images/instagram2.png")
+
+script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+script(src="/js/jquery.nav.js")
+script(type="text/javascript").
+    $(document).ready(function() {
+      $('#top-nav').onePageNav({
+             currentClass: 'active',
+             changeHash: true,
+             scrollSpeed: 600
+      });
+      $("#owl-demo").owlCarousel({
+          //autoPlay: 3000, //Set AutoPlay to 3 seconds
+          items : 4,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+
+      });
+      $("#owl-example").owlCarousel({
+                //navigation : true,
+                slideSpeed : 1600,
+                paginationSpeed : 400,
+                singleItem: true
+        });
+
+    });
+    
+    
+            
+
+        
+        

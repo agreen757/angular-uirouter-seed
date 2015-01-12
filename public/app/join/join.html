@@ -1,0 +1,137 @@
+
+
+<!-- <div ng-include src="'/app/components/navbar-other/navbar-other.html'"></div> -->
+<div id="opaqueheader" style="position:absolute;background:rgba(0,0,0,0.2);width:100%;z-index:1"></div>
+<section id="header" data-type="background" data-speed="6">      
+  <div style="font-family:Droid Sans,sans-serif;min-height:100%;height:100%;box-sizing:border-box;" class="container-fluid">
+    <!--img(src="/images/WhiteMaskLogoTransparent.png",height="100",width="100",style="position:absolute;z-index:2;")-->
+    <div class="row">
+      <div id="cta1" style="color:white;position:absolute;z-index:2" class="col-md-5">
+        <center>
+          <h1><em id="headertext">Join the Largest Distribution Network on Emerging Platforms</em></h1>
+        </center>
+      </div>
+      <div style="float:right" class="col-md-5"></div>
+    </div>
+    <div style="margin-top:20%" class="row">
+      <div style="background:rgba(0,0,0,0.5);opacity:.50;position:absolute;z-index:1;height:35%;width:100%;top:50%" class="whep"></div>
+      <div id="mobilesign" class="col-md-5">
+        <center><a href="/joinreq" target="_self">
+            <button style="font-size:1.7em" class="btn btn-primary">Sign Up</button></a></center>
+      </div>
+      <div id="headercol1" class="col-md-5">
+        <center>
+          <h1>Who we are</h1>
+          <p>INDMUSIC is a Global Rights Administration Network and YouTube Certified MCN with proprietary digital tools and  services to increase revenue and audience development on emerging platforms including YouTube, SoundCloud and Dailymotion. INDMUSIC helps its partners monetize their content on multiple platforms without sacrificing creative control or rights to their content.</p>
+        </center>
+      </div>
+      <div id="demovid" style="float:left;margin-top:40px;margin-left:40px;position:absolute;z-index:2;top:48%" class="col md-5">
+        <iframe frameborder="1" width="480" height="300" src="//www.youtube.com/embed/1bIT5awVaIU?rel=0&amp;amp;controls=0&amp;amp;showinfo=0" allowfullscreen><br><a href="http://www.dailymotion.com/video/x260m9z_indmusic-in-the-great-outdoors-trailer_music" target="_blank"></a></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="beforemeat" data-type="background" data-speed="7">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="whep2"></div>
+      <div id="bigtext" style="right:10em" class="col-md-10">
+        <center>
+          <h1 id="textfont" style="">MAKE MONEY</h1><br>
+          <h1 id="textfont">WITH YOUR</h1><br>
+          <h1 id="textfont">MUSIC </h1>
+        </center>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="opaqueheader" style="position:absolute;background:rgba(0,0,0,0.2);width:100%;z-index:1"></div>
+<section id="ending" data-type="background" data-speed="120" style="min-height:100%;box-sizing:border-box;">
+  <div style="font-family:Droid Sans,sans-serif;min-height:100%;height:100%;box-sizing:border-box;" class="container-fluid">
+    <div class="row">
+      <div style="background:rgba(0,0,0,0.5);opacity:.50;position:absolute;z-index:1;height:35%;width:100%" class="whep"></div>
+      <div class="col-md-6">
+        <center>
+          <div id="status" style="color:white;position:absolute;z-index:3">
+            <h1><em>Sign Me Up!</em></h1>
+            <hr>
+            <h3>To see if you qualify to join our Network, please verify your identity with your Google login information.</h3><br><a href="/joinreq" target="_self">
+              <button style="font-size:20px" class="btn btn-primary">Sign Up</button></a>
+          </div>
+        </center>
+      </div>
+    </div>
+    <div class="row">
+      <div id="philosophy" style="" class="col-md-4">
+        <center>
+          <div style="color:white;margin-top:50%">
+            <h1>Still have questions?</h1>
+            <hr>
+            <p style="font-size:1.2em">Hit us up for more information</p>
+            <center><a href="mailto:contact@indmusicnetwork.com">contact@indmusicnetwork.com</a></center>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div style="display:inline;padding:5px;border-right:solid black"><a href="http://youtube.com/indmusic" target="_self"><img src="images/youtube-icon2.png" height="50" width="50"></a></div>
+        <div style="display:inline;padding:5px;border-right:solid black"><a href="http://twitter.com/indmusic" target="_self"><img src="images/twitter-icon2.png" height="40" width="40"></a></div>
+        <div style="display:inline;padding:5px;border-right:solid black"><a href="http://facebook.com/indmusic"><img src="images/facebook-icon2.png" height="40" width="40"></a></div>
+        <div style="display:inline"><a href="http://instagram.com/indmusic" target="_self"><img src="images/instagram2.png" height="60" width="60"></a></div>
+        <div style="display:inline;margin-left:30px"><em font-size:2em>Stay in touch</em></div>
+      </div>
+    </div>
+  </div>
+</div><!--.container-fluid(style="background-color:black:height:200px")
+<div class="row">
+  <div class="col-md-6">
+    <h1><em>Have questions?  Get in contact</em></h1>
+  </div>
+</div>-->
+
+<script>
+  function worker(stats){
+      console.log('in worker');
+      //console.log(id)
+      var statssplit = stats.split(",");
+      var final = {
+          id: statssplit[0],
+          title: statssplit[1],
+          bdate: statssplit[2],
+          image: statssplit[3],
+          views: statssplit[4],
+          subs: statssplit[5],
+          url: statssplit[6],
+          email: $("input").val()
+      }
+      console.log($("input").val())
+      
+      $.ajax({
+          url: "/joiner",
+          method: 'PUT',
+          data: final,
+          success: function(data){
+            console.log('success',data)
+            $("#status label").empty().html("Talk to ya soon")
+            $("#status input").hide()
+            $("#status button").hide()
+          }
+      })
+      
+      
+      
+      
+      
+      stats.id+','+stats.title+','+stats.bdate+','+stats.image+','+stats.views+','+stats.subs
+  }
+</script>
+<script>
+  $('#hidenav').hide();
+  $('#back').show();
+  
+</script>
